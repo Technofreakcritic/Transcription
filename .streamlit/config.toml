@@ -1,0 +1,16 @@
+# Configuration for the Transcription App
+
+#[app]
+#title = "Project Jet2Holidays (Transcription App)"
+#header = "Audio Transcription App"
+
+#[model]
+# Default model size. Options: "tiny", "base", "small", "medium", "large"
+#default_size = "tiny"
+#device = "cpu" # Options: "cpu", "cuda"
+#compute_type = "int8" # Options for CPU: "int8", "int8_float16", "int16", "float32". Options for GPU: "float16", "bfloat16"
+#beam_size = 5
+
+[audio]
+# Allowed file types for upload
+#allowed_types = ["mp3", "wav", "m4a"]
